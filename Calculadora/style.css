@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    width: 250px;
+    height: 400px;
+    background-color: #f5bcbc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Resto de estilos para la calculadora */
+}
+
+.pantalla {
+    width: calc(100% - 40px); /* Ancho ajustado para dejar espacio a los 20px de padding en cada lado */
+    height: 80px;
+    background-color: #e0e0e0;
+    text-align: right;
+    font-size: 24px;
+    padding: 20px;
+    border-bottom: 1px solid #3d3939;
+    border: 2px solid #c2bcbc; /* Añadir un borde de 2px sólido de color gris claro */
+    margin: 0 auto; /
+}
+
+
+.display {
+    font-weight: bold;
+    color: black;
+}
+
+.teclados {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teclado {
+    width: 25%; /* Ajusta el ancho según tus preferencias */
+    height: 60px; /* Ajusta la altura según tus preferencias */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px; /* Centra el texto verticalmente */
+    font-size: 24px;
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+}
+
+.teclado:hover {
+    background-color: white;
+}
+
+
+
+
+
